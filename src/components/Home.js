@@ -1,6 +1,11 @@
 import React from "react";
 
+
+const username = "Anna";
+const city = "Nairobi";
+
 function Home() {
+ 
   return (
     <div id="home">
       <h1>
@@ -9,3 +14,6 @@ function Home() {
     </div>
   );
 }
+
+export default Home;
+
